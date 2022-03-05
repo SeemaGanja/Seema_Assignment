@@ -1,6 +1,0 @@
-framework module Pods_Seema_Assignment {
-  umbrella header "Pods-Seema_Assignment-umbrella.h"
-
-  export *
-  module * { export * }
-}
