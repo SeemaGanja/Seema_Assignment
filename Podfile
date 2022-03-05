@@ -7,7 +7,6 @@ target 'Seema_Assignment' do
 
   # Pods for Seema_Assignment
   pod 'Alamofire', '~>4.9.1'
-  pod 'SVProgressHUD'
-  pod 'SDWebImage'
+  
 
 end
