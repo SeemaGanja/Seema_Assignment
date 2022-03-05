@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YG7-iQ-gLn">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -46,7 +45,7 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oSW-Df-5mL">
-                                <rect key="frame" x="30" y="55" width="354" height="651"/>
+                                <rect key="frame" x="30" y="55" width="354" height="671"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Pl4-Q3-nfS">
@@ -79,7 +78,7 @@
                             <constraint firstItem="At7-XH-q4b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CRp-w9-fXh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sC3-FE-v0q" secondAttribute="trailing" id="Dao-Rj-dEq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oSW-Df-5mL" secondAttribute="trailing" constant="30" id="DwV-rc-D6e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oSW-Df-5mL" secondAttribute="bottom" constant="30" id="KBh-BY-289"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oSW-Df-5mL" secondAttribute="bottom" constant="10" id="KBh-BY-289"/>
                             <constraint firstItem="At7-XH-q4b" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QH1-fK-Wng"/>
                             <constraint firstItem="oSW-Df-5mL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="RBB-db-dAp"/>
                             <constraint firstItem="sC3-FE-v0q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dgB-5L-nz5"/>

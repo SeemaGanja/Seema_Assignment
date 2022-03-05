@@ -40,7 +40,7 @@ public class WebService {
         print("URL :- \(finalURL)")
         print("Parameter :- \(parameter)")
         
-        //if (Network.reachability?.isReachable)! {
+        if (Network.reachability?.isReachable)!{
             
             if isWithLoading {
                 if images.count > 0 || videoData.count > 0 || audioData.count > 0 || documents.count > 0 {
@@ -206,10 +206,10 @@ public class WebService {
                         }
                 }
             }
-        //}
-//        else {
-//            print("Internet is not available")
-//        }
+        }
+        else {
+            print("Internet is not available")
+        }
     }
 }
 

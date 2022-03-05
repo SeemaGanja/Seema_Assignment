@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+var appShared = UIApplication.shared.delegate as! AppDelegate
 
 struct WebURL {
     
