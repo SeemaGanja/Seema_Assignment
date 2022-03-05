@@ -7,9 +7,6 @@
 
 
 import UIKit
-import SDWebImage
-
-
 
 protocol HomeProtocol: class {
     func getResponseNowPlaying(response: ModelNowPlaying)

@@ -3,7 +3,7 @@
 import UIKit
 import Alamofire
 //import SwiftyJSON
-import SVProgressHUD
+
 
 //Swifty json ServiceResponse
 //typealias ServiceResponse = (JSON, Error?) -> Void
