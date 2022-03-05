@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CellColPopular" reuseIdentifier="CellColPopular" id="NfF-zo-yX3" customClass="CellColPopular" customModule="Seema_Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="qWu-xg-B7s">
+                <rect key="frame" x="0.0" y="0.0" width="436" height="262"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mrX-26-gHL">
+                        <rect key="frame" x="0.0" y="0.0" width="436" height="262"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FhV-J5-4Cm">
+                                <rect key="frame" x="10" y="10" width="416" height="242"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAm-mg-aa6">
+                                        <rect key="frame" x="0.0" y="0.0" width="416" height="242"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1a9-r1-nnD">
+                                                <rect key="frame" x="0.0" y="0.0" width="406" height="242"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="1a9-r1-nnD" secondAttribute="trailing" constant="10" id="bJY-2m-tie"/>
+                                            <constraint firstItem="1a9-r1-nnD" firstAttribute="top" secondItem="SAm-mg-aa6" secondAttribute="top" id="fKu-WQ-u2A"/>
+                                            <constraint firstAttribute="bottom" secondItem="1a9-r1-nnD" secondAttribute="bottom" id="jzm-60-vI1"/>
+                                            <constraint firstItem="1a9-r1-nnD" firstAttribute="leading" secondItem="SAm-mg-aa6" secondAttribute="leading" id="ngj-fM-Sqa"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CZ-a1-H6l">
+                                <rect key="frame" x="188" y="101" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ctw-jD-iuX"/>
+                                    <constraint firstAttribute="width" constant="60" id="RY0-zV-yiC"/>
+                                </constraints>
+                                <state key="normal" image="icn_play">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="FhV-J5-4Cm" secondAttribute="bottom" constant="10" id="1au-gu-AUm"/>
+                            <constraint firstItem="FhV-J5-4Cm" firstAttribute="leading" secondItem="mrX-26-gHL" secondAttribute="leading" constant="10" id="1lw-pu-iz5"/>
+                            <constraint firstAttribute="trailing" secondItem="FhV-J5-4Cm" secondAttribute="trailing" constant="10" id="Cel-5F-rCv"/>
+                            <constraint firstItem="3CZ-a1-H6l" firstAttribute="centerY" secondItem="mrX-26-gHL" secondAttribute="centerY" id="Es6-EE-GaV"/>
+                            <constraint firstItem="FhV-J5-4Cm" firstAttribute="top" secondItem="mrX-26-gHL" secondAttribute="top" constant="10" id="bZG-M7-fFC"/>
+                            <constraint firstItem="3CZ-a1-H6l" firstAttribute="centerX" secondItem="mrX-26-gHL" secondAttribute="centerX" id="tQP-UN-1pw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mrX-26-gHL" secondAttribute="trailing" id="Mwq-b1-0vH"/>
+                    <constraint firstAttribute="bottom" secondItem="mrX-26-gHL" secondAttribute="bottom" id="Nyi-Ll-BhR"/>
+                    <constraint firstItem="mrX-26-gHL" firstAttribute="top" secondItem="qWu-xg-B7s" secondAttribute="top" id="kwf-g0-eg6"/>
+                    <constraint firstItem="mrX-26-gHL" firstAttribute="leading" secondItem="qWu-xg-B7s" secondAttribute="leading" id="mVO-Jm-L6X"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="436" height="262"/>
+            <connections>
+                <outlet property="btnPlay" destination="3CZ-a1-H6l" id="uIP-YA-5E4"/>
+                <outlet property="imgNowPlayPoster" destination="1a9-r1-nnD" id="HJP-xg-HTQ"/>
+                <outlet property="viewImage" destination="SAm-mg-aa6" id="glb-oR-Jn8"/>
+            </connections>
+            <point key="canvasLocation" x="-174" y="17"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icn_play" width="170.66667175292969" height="170.66667175292969"/>
+    </resources>
+</document>
